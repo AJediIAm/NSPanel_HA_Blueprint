@@ -209,7 +209,8 @@ This connection is necessary to put the ESP32 into firmware transfer mode.
 Using a voltage higher than 3.3VDC, such as 5VDC, can damage your panel.
 4. To avoid short circuits, consider moving the panel's board away from the metal backing of the display.
 The use of a non-conductive tool, like the blue plastic one shown in the picture, can be helpful.
-5. Note the cross-connection of `RX` and `TX` pins.
+![114730547 MP](https://github.com/Blackymas/NSPanel_HA_Blueprint/assets/5879533/f58c5d30-0e00-42c0-ae7b-82b24b04753a)
+6. Note the cross-connection of `RX` and `TX` pins.
     The following pin-out should be used:
     <!-- markdownlint-disable MD033 -->
       | Panel's Board | TTL USB-to-Serial |
